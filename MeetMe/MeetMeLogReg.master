@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MeetMeLogReg.master.cs" Inherits="MeetMeLogReg" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server">
+
+        </asp:ContentPlaceHolder>
+    </title>
+    <link href="CSS/MainStyle.css" rel="stylesheet" type="text/css"/>
+    <asp:ContentPlaceHolder id="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="wrapper">
+        <div class="menu">
+            
+        </div>
+        <div class="clear"></div>
+        <div class="content">
+            <asp:ContentPlaceHolder id="contentBody" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="clear"></div>
+        <div class="footer"></div>
+
+    </div>
+    </form>
+</body>
+</html>

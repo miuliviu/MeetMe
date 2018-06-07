@@ -1,0 +1,143 @@
+﻿.allConversationsFashion {
+    display: inline;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.imgProfile {
+    margin-top:25px;
+    height: 120px;
+    width: 120px;
+    border: 1px solid #b4b4b4;
+}
+
+.buttonFashionMessage {
+    padding-right: 5px;
+    background-color: rgb(10,110,178);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    height: 30px;
+    transition-duration: 0.4s;
+    min-width: 160px;
+    margin-top: 5px;
+    margin-top: 30px;
+}
+
+.buttonFashionMessage:hover {
+    background-color: #0d3a72;
+    color: white;
+}
+
+.buttonFashionDeleteConv {
+    padding-right: 5px;
+    background-color: #cf2424;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    height: 30px;
+    min-width: 160px;
+    transition-duration: 0.4s;
+    margin-top: 30px;
+}
+
+.buttonFashionDeleteConv:hover {
+    background-color: #5e0a0a;
+    color: white;
+}
+
+.conversationLine {
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 949px;
+    height: 168px;
+    background-image: radial-gradient(white, #e6e6e6 );
+}
+
+.imgDiv {
+    float: left;
+    width: 188px;
+    height: 168px;
+    border-right: 1px solid #c2c2c2;
+}
+
+.preMsgTxtDiv {
+    font-size: 16px;
+    height: 84px;
+    width: 474px;
+    display: table;
+    float: left;
+    border-right: 1px solid #c2c2c2;
+    font-weight: bold;
+}
+
+.preMsgTxtDiv p{
+    padding-top:30px;
+}
+
+.msgTxtDiv {
+    font-size: 14px;
+    display: table;
+    height: 84px;
+    width: 474px;
+    float: left;
+    border-right: 1px solid #c2c2c2;
+}
+
+.msgTxtDiv p {
+    text-overflow: ellipsis; /* will make [...] at the end */
+    width: 350px; /* change to your preferences */
+    white-space: nowrap; /* paragraph to one line */
+    overflow: hidden;
+    padding-left:62px;
+}
+
+.butMsgDiv {
+    height: 84px;
+    width: 285px;
+    display: table;
+}
+
+.butDelDiv {
+    height: 84px;
+    width: 285px;
+    display: table-column;
+    float: left;
+}
+
+.noMessages {
+    display: inline-block;
+    margin-left: 32%;
+    margin-top: 16%;
+    font-size: 18px;
+}
+
+.titleBlock {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 25px;
+    width: 100%;
+    background-color: rgb(10,110,178);
+    color: white;
+    height: 50px;
+    text-align:center;
+}
+
+.titleBlock p {
+    width: 100%;
+    padding-top: 10px;
+    font-family: Arial,Helvetica, Sans-Serif;
+    margin-right: 30px;
+}
+

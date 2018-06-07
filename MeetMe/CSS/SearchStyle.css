@@ -1,0 +1,215 @@
+﻿.profileImages{
+    width: 100px;
+    height:100px
+}
+
+.searchPageContent {
+    display: inline;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.TableSearchResults {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-collapse: collapse;
+    padding-top: 10px;
+}
+
+.TableSearchResults tr td {
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    width: 50%;
+    border-bottom: 1px solid #7891c6;
+}
+
+.TableSearchResults tr td a {
+    text-decoration:none;
+    color:black;
+    padding-right:50px;
+}
+
+
+.TableSearchResults tr:last-child td {
+    border-bottom: none
+}
+
+.buttonFashion {
+    padding-right: 5px;
+    margin-right: 100px;
+    background-color: #5eca31;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    height: 30px;
+    transition-duration: 0.4s;
+    min-width: 100px;
+}
+
+.buttonFashion:hover {
+    background-color: #115819;
+    color: white;
+}
+
+.buttonFashion2 {
+    padding-right: 5px;
+    margin-right: 100px;
+    background-color: #0d87ce;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
+    height: 30px;
+    transition-duration: 0.4s;
+    min-width: 100px;
+}
+
+
+
+.buttonFashion3 {
+    padding-right: 5px;
+    margin-right: 100px;
+    background-color: #ef7d10;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
+    height: 30px;
+    transition-duration: 0.4s;
+    min-width:100px;
+}
+
+.buttonFashionAccept1 {
+    padding-right: 5px;
+    background-color: #0f36eb;
+    margin-right: 100px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    height: 30px;
+    transition-duration: 0.4s;
+    min-width: 100px;
+}
+
+.buttonFashionAccept1:hover {
+    background-color: #181d82;
+    color: white;
+}
+
+.serachResText {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.lineStyle {
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 1px solid;
+    color: gray;
+    margin-top: 15px;
+}
+
+.imgProfileSuggested {
+    height:200px;
+    width:200px;
+    
+}
+
+.suggestionDivFashion {
+    width: 760px;
+    margin-left: 95px;
+    margin-right: 95px;
+    text-align:center;
+}
+
+.userBlock {
+    margin-left: 20px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2);
+    margin-bottom:10px;
+}
+
+.buttonFashionAddNewSuggestion {
+    padding-right: 5px;
+    background-color: #5eca31;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    height: 30px;
+    transition-duration: 0.4s;
+    min-width: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.buttonFashionAddNewSuggestion:hover {
+    background-color: #115819;
+    color: white;
+}
+
+.buttonFashionAcceptFriendSuggestion {
+    padding-right: 5px;
+    background-color: #0f36eb;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    height: 30px;
+    transition-duration: 0.4s;
+    min-width: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.buttonFashionAcceptFriendSuggestion:hover {
+    background-color: #181d82;
+    color: white;
+}
+
+.buttonAreaStyle {
+    text-align:center;
+}
+
+.linkNameSuggestion {
+    text-decoration: none;
+    color: blue;
+    font-size: 14px;
+}
+
+.peopleTitle {
+    
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-size: 16px;
+    color: #808080
+}
+
+
+

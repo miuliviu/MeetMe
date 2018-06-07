@@ -1,0 +1,181 @@
+﻿body, div, p, ul, li {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(237,237,237);
+    font-family: Arial, Helvetica, Sans-Serif;
+    font-size: 12px;
+}
+
+.wrapper {
+    width: 950px;
+    margin: auto;
+}
+
+.content {
+    width: 100%;
+    background-color: rgb(254,254,254);
+    border: 1px solid rgb(224,224,224);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    min-height: 400px;
+}
+
+.menu {
+    background-color: rgb(10,110,178);
+    width: 100%;
+    margin: 0px 0px 10px;
+    margin-top: 5px;
+    padding: 0px;
+    height: 40px;
+    color: rgb(243,243,243);
+    border-radius: 5px 5px 5px 5px;
+}
+
+.menu ul {
+    
+}
+
+.menu ul li {
+    float: right;
+    display: block;
+    list-style: none;
+    border-right: 1px solid rgb(10,85,125);
+    border-left: 1px solid rgb(67,153,200);
+    transition-duration: 0.4s;
+}
+
+.menu_first {
+    border-radius: 0px 5px 5px 0px;
+}
+
+.menu_last {
+    border-radius: 5px 0px 0px 5px;
+}
+
+.menu ul li a {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 40px;
+    padding: 8px 20px;
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+
+.notificationStyleA {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 40px;
+    padding: 8px 20px;
+    color: #b50000;
+    text-decoration: none;
+}
+
+.menu ul li:hover {
+    background-color: rgb(14,79,114);
+    border-right: 1px solid rgb(14,89,130);
+}
+
+.clear {
+    clear: both;
+}
+
+.footer {
+    height: 40px;
+    background-color: rgb(10,110,178);
+    color: rgb(255,255,255);
+    border-radius: 5px 5px 5px;
+}
+
+.footer h2 {
+    padding: 15px;
+    text-align: center;
+}
+
+.footer ul {
+}
+
+.footer ul li {
+    float: left;
+    display: block;
+    list-style: none;
+    border-right: 1px solid rgb(10,85,125);
+    border-left: 1px solid rgb(67,153,200);
+    transition-duration: 0.4s;
+}
+
+.footer_first {
+    border-radius: 0px 5px 5px 0px;
+}
+
+.footer_last {
+    border-radius: 5px 0px 0px 5px;
+}
+
+.footer ul li a {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 40px;
+    padding: 8px 20px;
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+
+.footer ul li:hover {
+    background-color: rgb(14,79,114);
+    border-right: 1px solid rgb(14,89,130);
+}
+
+.searchBarBlock{
+    float: left;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+
+.serachBarInput {
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid #ef7d10;
+    margin-top: 5px;
+    height: 30px;
+    text-indent: 5px;
+    float: left;
+    margin-left: 20px;
+}
+
+.buttonFashion1 {
+    background-color: #ef7d10;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    height: 30px;
+    transition-duration: 0.4s;
+    float: left;
+    margin-right: 0px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.buttonFashion1:hover {
+    background-color: #a55609;
+    color: white;
+}
+
+.searchCat {
+    float: left;
+    height: 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+

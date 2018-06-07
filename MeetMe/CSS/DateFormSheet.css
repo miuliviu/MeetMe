@@ -1,0 +1,155 @@
+﻿.allContent {
+    display: inline;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.titleBlock {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 25px;
+    width: 100%;
+    background-color: rgb(10,110,178);
+    color: white;
+    height: 50px;
+    text-align: center;
+}
+
+.titleBlock p {
+    width: 100%;
+    padding-top: 10px;
+    font-family: Arial,Helvetica, Sans-Serif;
+    margin-right: 30px;
+}
+
+.dateLocation {
+    height:50px;
+    margin-top:20px;
+    border-radius:5px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #f3903b;
+}
+
+.dateTime {
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #f3903b;
+}
+
+.dateDate {
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #f3903b;
+}
+
+.dateDescription {
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #f3903b;
+}
+
+.buttonFashionSend {
+    padding-right: 5px;
+    background-color: #15b122;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    height: 30px;
+    transition-duration: 0.4s;
+    margin-top: 20px;
+}
+
+.buttonFashionSend:hover {
+    background-color: #0d5f25;
+    color: white;
+}
+
+.buttonFashionCancel {
+    padding-right: 5px;
+    background-color: #cf2424;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    height: 30px;
+    transition-duration: 0.4s;
+    margin-top: 20px;
+}
+
+.buttonFashionCancel:hover {
+    background-color: #5e0a0a;
+    color: white;
+}
+
+.dateTextFashion {
+    padding-top: 15px;
+    font-size: 20px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.dateTextFashionDescription {
+    padding-top: 60px;
+    font-size: 20px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.box1 {
+    float:left;
+    width:50%;
+    height:100%;
+}
+
+.box2 {
+    height: 100%;
+}
+
+.clearArea {
+    clear:both;
+}
+
+.textBoxFashion {
+    margin-top: 15px;
+    border-radius: 4px;
+    border: 1px solid #a1a1a1;
+    text-align: left;
+    width:175px;
+}
+
+.textBoxFashionDescription {
+    margin-top: 15px;
+    border-radius: 4px;
+    border: 1px solid #a1a1a1;
+    text-align: left;
+    height:80%;
+    width:175px;
+    resize:none;
+}
+
+.buttonArea {
+    margin-bottom:20px;
+}

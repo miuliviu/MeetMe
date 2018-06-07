@@ -1,0 +1,48 @@
+﻿.titleBlock {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 25px;
+    width: 100%;
+    background-color: rgb(10,110,178);
+    color: white;
+    height: 50px;
+    text-align:center;
+}
+
+.titleBlock p {
+    width: 100%;
+    padding-top: 10px;
+    font-family: Arial,Helvetica, Sans-Serif;
+    margin-right: 30px;
+}
+
+.invitationSentText {
+    text-align:center;
+    margin-top: 16%;
+    font-size: 18px;
+}
+
+.buttonFashionBack {
+    padding-right: 5px;
+    background-color: #15b122;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    height: 30px;
+    transition-duration: 0.4s;
+    margin-top: 20px;
+}
+
+.buttonFashionBack:hover {
+    background-color: #0d5f25;
+    color: white;
+}
+
+.buttonArea{
+    margin-top:50px;
+    text-align:center;
+}

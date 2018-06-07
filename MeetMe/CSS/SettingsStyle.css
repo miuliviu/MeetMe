@@ -1,0 +1,201 @@
+﻿.allContent {
+    display: inline;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+.titleBlock {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 25px;
+    width: 100%;
+    background-color: rgb(10,110,178);
+    color: white;
+    height: 50px;
+    text-align: center;
+}
+
+.titleBlock p {
+    width: 100%;
+    padding-top: 10px;
+    font-family: Arial,Helvetica, Sans-Serif;
+    margin-right: 30px;
+}
+
+.textArea {
+    float:left;
+    width: 70%;
+    height:100%;
+    text-align:center;
+}
+
+.buttonArea{
+    width:30%;
+    height:100%;
+    display:table;
+    text-align:center;
+}
+
+.applySettingsArea{
+    margin-top:30px;
+    margin-bottom:20px;
+}
+
+.clearArea {
+    clear:both;
+}
+
+.buttonFashionDeleteAcc {
+    padding-right: 5px;
+    background-color: #cf2424;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    height: 30px;
+    min-width: 160px;
+    transition-duration: 0.4s;
+    margin-top: 15px;
+}
+
+.buttonFashionDeleteAcc:hover {
+    background-color: #5e0a0a;
+    color: white;
+}
+
+
+
+.buttonFashionApply {
+    padding-right: 5px;
+    background-color: #1ba715;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    height: 30px;
+    min-width: 160px;
+    transition-duration: 0.4s;
+    margin-top: 30px;
+}
+
+.buttonFashionApply:hover {
+    background-color: #185a0e;
+    color: white;
+}
+
+.buttonFashionCancelAcc {
+    padding-right: 5px;
+    background-color: #ff6a00;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    height: 30px;
+    min-width: 160px;
+    transition-duration: 0.4s;
+    margin-top: 30px;
+}
+
+.buttonFashionCancelAcc:hover {
+    background-color: #ac5710;
+    color: white;
+}
+
+.dropDownFashionPrivacy {
+    border-radius: 5px;
+    border-color: #ff6a00;
+    min-width: 160px;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 17px;
+}
+
+.dropDownFashionChat {
+    border-radius: 5px;
+    border-color: #ff6a00;
+    min-width: 160px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 17px;
+}
+
+.privacyText {
+    padding-top:50px;
+    font-size:16px;
+    padding-bottom:20px;
+}
+
+.deleteText {
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+.line1 {
+    width :80%;
+}
+
+.line2 {
+    width: 80%;
+}
+
+.chatText {
+    padding-top: 20px;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+
+
+.rating > a:hover:before {
+    content: "\2605";
+    position: absolute;
+}
+
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 14px;
+    color: goldenrod;
+}
+
+.rating > a {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+    text-decoration: none;
+    color: gold;
+    text-shadow: 0 0 3px #000000;
+}
+
+.rating > a:hover:before,
+.rating > a:hover ~ span:before {
+    content: "\2605";
+    position: absolute;
+}
+
+.ratAveDivFashion {
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 14px;
+    color: gold;
+    text-shadow: 0 0 3px #000000;
+}
+
+.bugEmailDiv {
+    margin-top:60px;
+}
